@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 32px;
+    
+}
+.header-link {
+    display: flex;
+    gap: 16px;
+}
+.below-header {
+    display: flex;
+}
+.topmost {
+    background-color: #1F2937;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 50px;
+    color: aliceblue;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.header-link-text {
+    font-size: 8px;
+}
+.awesome-text {
+   font-size: 48px;
+   color: #F9FAF8;
+   font-weight: 900;
+   margin-bottom: 0; 
+}
+.awesome-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 40px;
+    width: 150px;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+}
+.border {
+    border: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    height: 100px;
+    width: 100px;
+    border-width: 4px;
+}
+.second {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+}
+.boxes {
+    display: flex;
+   gap: 16px;
+   justify-content: center;
+}
+.hsecond {
+    font-weight: 900;
+    font-size: 16px;
+    color: #1F2937;
+}
+.third {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.quoterd {
+    margin-left: auto;
+    font-weight: bold;
+}
+.fourth {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+.innerfourth {
+   border: solid;
+   padding: 24px;
+   background-color: #3882F6;
+   display: flex;
+   justify-items: space-between;
+   flex-shrink: 1;
+   gap: 1px;
+   flex-direction: column;
+   
+}
+.fbutton {
+    height: 20px;
+    width: 80px;
+    display: flex;
+    border-color: #F9FAF8;
+    border-radius: 4px;
+    color: white;
+    background-color:  #3882F6;
+    justify-content: center;
+    align-items: center;
+}
+.fdown {
+    display: flex;
+    
+}
+.pfourth {
+    margin: 0;
+    color: white
+}
+#topfourth {
+    font-weight: bolder;
+}
+.fifth {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.content {
+    flex: 1;
+}
